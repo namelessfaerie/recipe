@@ -72,9 +72,37 @@ header {
 
 /* Recipe Details */
 .recipe-details {
-    background-color: rgba(122, 191, 191, 0.5);
+    background-color: #0D0D0D;
+    color: #7ABFBF;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recipe-details h2 {
+    width: 100%;
+    font-size: 1.8rem;
+    color: #7ABFBF;
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    flex: 1 1 150px;
+    margin-bottom: 15px;
+}
+
+.detail-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #7ABFBF;
+    margin: 0;
+}
+
+.detail-info {
+    font-size: 1rem;
+    color: #7ABFBF;
 }
 
 /* Ingredients & Directions */
@@ -102,6 +130,7 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+    size: 20px;
 }
 
 .social-links img {
