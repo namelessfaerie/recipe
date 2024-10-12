@@ -114,15 +114,51 @@ header {
 
 /* Side Dishes */
 .side-dishes {
-    background-color: #7ABFBF;
+    background-color:#7ABFBF
+    ;
     padding: 20px;
+    text-align: center;
+}
+
+.side-dishes h2 {
+    font-size: 2rem;
+    color: #0D0D0D;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .side-dish {
     display: inline-block;
-    margin-right: 20px;
-    text-align: center;
+    width: 200px; /* Ensures images and content stay within bounds */
+    margin: 10px;
+    vertical-align: top;
 }
+
+.side-dish img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.side-dish-name {
+    font-size: 1.2rem;
+    color: #0D0D0D;
+    margin: 10px 0 5px 0;
+}
+
+.side-dish-description {
+    font-size: 1rem;
+    color:  #0D0D0D;
+    margin: 5px 0;
+}
+
+.side-dish-rating {
+    font-size: 1rem;
+    color:  #0D0D0D;
+    margin: 5px 0;
+}
+
 
 /* Footer */
 footer {
