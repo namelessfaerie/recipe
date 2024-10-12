@@ -9,8 +9,37 @@ body {
 
 /* Header & Navigation */
 header {
-    background-color: #7ABFBF;
+    background-color: #F2F2F2;
+    color: #EB5428;
     padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .nav-item {
+    margin: 0 15px; /* Creates spacing between each item */
+    text-align: center;
+    width: 80px; /* Adjust based on image sizes to fit comfortably */
+}
+
+header img {
+    width: 100%;
+    max-width: 70px; /* Adjust to ensure images fit well across the header */
+    height: auto;
+}
+
+header .nav-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    color: #EB5428;
+    margin-top: 5px;
+    display: block;
+    text-transform: uppercase;
+}
+g: 20px;
 }
 
 .main-nav {
