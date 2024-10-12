@@ -1,108 +1,109 @@
 /* Base styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #0D0D0D;
-    background-color:#7ABFBF;
-}
-
-header {
     background-color: #F2F2F2;
-    padding: 20px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav-links li a {
+    margin: 0;
+    padding: 0;
     color: #0D0D0D;
-    text-decoration: none;
-    font-size: 18px;
 }
 
-.search-avatar img {
-    width: 30px;
-    margin-left: 10px;
-}
-
-.recipe-header {
-    text-align: center;
-    background-color: #EB5428;
-    padding: 30px;
-}
-
-.recipe-header h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 48px;
-    color: #F2F2F2;
-}
-
-.icons img {
-    width: 30px;
-    margin: 10px;
-}
-
-.image-section img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
-}
-
-.recipe-description {
-    padding: 20px;
-    text-align: center;
-}
-
-.recipe-details {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color:#0D0D0D;
-}
-
-.details, .ingredients, .directions {
-    width: 30%;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.side-dishes {
-    text-align: center;
+/* Header & Navigation */
+header {
     background-color: #7ABFBF;
     padding: 20px;
 }
 
-.side-dishes .dishes {
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul li img {
+    margin-right: 8px;
+}
+
+.profile-search {
+    display: flex;
+    align-items: center;
+}
+
+/* Recipe Header */
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EB5428;
+    padding: 20px;
+}
+
+.recipe-header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.action-icons img {
+    margin-left: 15px;
+}
+
+/* Recipe Content */
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.recipe-description {
+    max-width: 60%;
+}
+
+/* Recipe Details */
+.recipe-details {
+    background-color: rgba(122, 191, 191, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ingredients & Directions */
+.ingredients-directions {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
-.side-dishes .dish {
-    width: 150px;
-}
-
-footer {
-    background-color: #0D0D0D;
-    color: #F2F2F2;
-    text-align: center;
+/* Side Dishes */
+.side-dishes {
+    background-color: #7ABFBF;
     padding: 20px;
 }
 
-footer .social img {
-    width: 30px;
+.side-dish {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #0D0D0D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links img {
     margin: 0 10px;
 }
